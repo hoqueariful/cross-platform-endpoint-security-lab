@@ -1,0 +1,10 @@
+# Reconstructed historical baseline
+# Target: 192.168.56.104
+# Baseline: 5 open TCP services
+
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds?
+8000/tcp open  http
+8089/tcp open  ssl/http

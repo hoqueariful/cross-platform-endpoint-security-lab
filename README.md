@@ -6,7 +6,7 @@
 
 ---
 
-## STAR Project Summary
+## Project Summary
 
 ### Situation
 A small mixed-platform environment needed a practical assessment of network exposure, endpoint protection and maintenance risk. The Windows 10 endpoint exposed multiple TCP services that required business justification and security control.

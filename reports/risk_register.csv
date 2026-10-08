@@ -1,0 +1,7 @@
+ID,Finding,Evidence,Business Impact,Risk Level,Recommended Action,Status
+R-01,Unnecessary network service exposed,Nmap scan,Increases attack surface,Medium,Disable service if not required,Open
+R-02,Windows endpoint on unsupported OS,Windows patch assessment,Security update and support risk,High,Upgrade to supported Windows version or use applicable ESU during transition,Open
+R-03,Endpoint detection control tested,EICAR test,Confirms security control can identify test malware,Low,Repeat testing periodically,Closed
+R-04,Linux packages require updates,APT assessment,Unpatched software may increase exposure,Medium,Apply updates after testing,Open
+C-01,"EICAR malware-control test completed","Provides assurance that endpoint protection can recognise a standard test artefact.","Control assurance","Repeat the validation periodically and retain evidence of the control response."
+C-02,"Firewall remediation validated by rule state","Demonstrates that a targeted host control can be implemented without broad system disruption.","Control assurance","Repeat the post-change scan and retain before/after evidence."
